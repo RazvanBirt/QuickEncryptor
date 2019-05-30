@@ -1,0 +1,67 @@
+﻿[precision language file]
+languagename=French
+rtl=0
+description=
+fileversion=1.0
+author=Fabrice@Rimlinger.eu
+
+[Tdlg_uvba_Options]
+bCancel.Caption=Annuler
+bOK.Caption=Protčger le projet VBA
+cbxBak.Caption=Créer une sauvegarde du fichier source
+GroupBox1.Caption=Options
+
+[Tdlg_uvba_Pwd]
+bCancel.Caption=Annuler
+bOK.Caption=OK
+Label2.Caption=Confirmer le mot de passe:
+Label6.Caption=Mot de passe:
+
+[Twnd_uvba_Main]
+acAbout.Caption=A propos de
+acClear.Caption=Fenêtre de claire
+acExit.Caption=Quitter
+acOpen.Caption=Ouvrir
+Label2.Caption=Application
+Label3.Caption=Actions
+NxTabSheet1.Caption=Accueil
+
+[constants]
+lc_BadPwdWarn=Mot de passe incorrect. Unviewable+ ne peut pas débloquer le projet VBA.
+lc_Cancelled=Opération annulée par l'utilisateur.
+lc_CannotConvert=Le projet VBA sélectionné ne peut pas ętre converti.
+lc_Cleaned=Projet VBA nettoyé !
+lc_CleanQuery=Ce projet VBA nécessite un nettoyage. Voulez le nettoyer ?
+lc_CleanVBAFound=Projet VBA valide détecté.
+lc_CRNotice=Ajouter Copyright
+lc_DBStamp=Ajouter date / version
+lc_Desc=Description
+lc_File=Fichier
+lc_FileBackup=Sauvegarde effectué sur
+lc_FileLocked=Fichier est verrouillé ou ouvert.
+lc_FileRO=Fichier est en lecture seule
+lc_LockedPrjFound=Un projet VBA protégé par mot de passe a été détecté.
+lc_MLP=Protection multi-couche
+lc_Name=Nom
+lc_No=No
+lc_NoPwdEntered=Saisissez un mot de passe
+lc_NoVBAWarn=Ce fichier ne contient pas de projet VBA. Ouvrez un fichier contenant des macros.
+lc_PersInfo=Information personnelle dans le projet VBA
+lc_PrjConverted=Conversion du fichier réussie.
+lc_PrjUnlocked=Projet VBA Unviewable+ dévérouillé.
+lc_ProcessQuery1=Unviewable+ est sur le point de convertir le projet VBA de votre fichier. Cette opération est irréversible. Assurez-vous d'avoir fait une sauvegarde du fichier source.
+lc_ProcessQuery2=Désirez-vous continuer ?
+lc_ProtLevel=Niveau de protection
+lc_ProtLevel0=Compatible VbaDiff (le moins sűr)
+lc_ProtLevel1=Simple
+lc_ProtLevel2=Protection moyenne
+lc_ProtLevel3=Ultime (Le plus sűr)
+lc_ProtType=Type de protection
+lc_ProtType0=Modules cachés (Projet VBA visible)
+lc_ProtType1=Projet VBA Unviewable protégé par mot de passe
+lc_ProtType2=Projet VBA Unviewable vérouillé
+lc_PwdMismatch=Mot de passe incorrect
+lc_UncleanVBAFound=Ce projet VBA nécessite un nettoyage.
+lc_UseRC=L'utilisation de Ribbon Commander VBA Cleaner est fortement recommandée. Cliquez ici pour l'obtenir.
+lc_Yes=Oui
+

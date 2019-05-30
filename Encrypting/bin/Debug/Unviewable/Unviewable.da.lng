@@ -1,0 +1,65 @@
+﻿[precision language file]
+languagename=Danish
+rtl=0
+description=
+fileversion=1.1
+author=John Rosenblad
+
+[Tdlg_uvba_Options]
+bCancel.Caption=Annuller
+bOK.Caption=Beskyt VBA-projekt
+cbxBak.Caption=Opret sikkerhedskopi af kildefil
+GroupBox1.Caption=Indstillinger
+
+[Tdlg_uvba_Pwd]
+bCancel.Caption=Annuller
+bOK.Caption=OK
+Label2.Caption=Bekræft adgangskode:
+Label6.Caption=Adgangskode:
+
+[Twnd_uvba_Main]
+acAbout.Caption=Om...
+acExit.Caption=Afslut
+acExit.Hint=Afslut|Afslutter programmet
+acOpen.Caption=Åbn...
+
+[constants]
+lc_BadPwdWarn=Den indtastede adgangskode er forkert. Unviewable+ VBA-projekt kan ikke låses op.
+lc_Cancelled=Handlingen blev annulleret af brugeren.
+lc_CannotConvert=Valgte VBA-projekt kan ikke konverteres. Måske er det allerede gjort ikke læsbart.
+lc_Cleaned=VBA-projekt er RENSET.
+lc_CleanQuery=VBA-Projekt er IKKE renset. Ønsker du at rense det?
+lc_CleanVBAFound=Renset VBA-projekt fundet.
+lc_CRNotice=Tilføj Copyrightmeddelelse
+lc_DBStamp=Tilføj dato-/versionsoplysninger
+lc_Desc=Beskrivelse
+lc_File=Fil
+lc_FileBackup=Fil sikkerhedskopieret til
+lc_FileLocked=Fil er låst eller åbnet.
+lc_FileRO=Filen er skrivebeskyttet
+lc_LockedPrjFound=Et adgangskode låst VBA-projekt er fundet.
+lc_MLP=Multi-lag beskyttelse
+lc_Name=Navn
+lc_No=Nej
+lc_NoPwdEntered=Ingen adgangskode angivet
+lc_NoVBAWarn=Der er intet VBA-projekt i den valgte fil. Åbn venligst en fil med makroer.
+lc_PersInfo=Personlige informationer i VBA-projekt
+lc_PrjConverted=Fil konverteret med succes.
+lc_PrjUnlocked=Unviewable+ VBA-projekt låst op.
+lc_ProcessQuery1=Du er ved at gøre VBA-projektet i den valgte fil ikke læsbar. Denne proces kan ikke fortrydes. Sørg for at du har en sikkerhedskopi af kildefilen.
+lc_ProcessQuery2=Ønsker du at fortsætte?
+lc_ProtLevel=Beskyttelsesniveau
+lc_ProtLevel0=VbaDiff kompatibel (laveste sikkerhed)
+lc_ProtLevel1=Simple
+lc_ProtLevel2=Medium styrke
+lc_ProtLevel3=Ultimativ (højeste sikkerhed)
+lc_ProtType=Type af beskyttelse
+lc_ProtType0=Skjulte moduler (VBA-projekt synligt)
+lc_ProtType1=Ikke læsbar og adgangskodebeskyttet VBA-projekt
+lc_ProtType2=Ikke læsbar og låst VBA-projekt
+lc_PwdMismatch=Adgangskoderne er ikke ens
+lc_RCLicInvalid=
+lc_UncleanVBAFound=Projekt er IKKE renset.
+lc_UseRC=Det anbefales at benytte Ribbon Commander VBA Cleaner. Dobbeltklik her for at hente den.
+lc_Yes=Ja
+

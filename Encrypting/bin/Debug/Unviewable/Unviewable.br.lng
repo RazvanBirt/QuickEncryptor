@@ -1,0 +1,66 @@
+﻿[precision language file]
+languagename=Portuguese - Brazil
+rtl=0
+description=
+fileversion=1.0
+author=Felipe Costa Gualberto - Ambiente Office
+
+[Tdlg_uvba_Options]
+bCancel.Caption=Cancelar
+bOK.Caption=Proteger Projeto VBA
+cbxBak.Caption=Criar uma cópia de backup
+GroupBox1.Caption=Opções
+
+[Tdlg_uvba_Pwd]
+bCancel.Caption=Cancelar
+bOK.Caption=OK
+Label2.Caption=Confirmar senha:
+Label6.Caption=Senha:
+
+[Twnd_uvba_Main]
+acAbout.Caption=Sobre
+acClear.Caption=Prenestr
+acExit.Caption=Sair
+acOpen.Caption=Abrir
+
+[constants]
+lc_BadPwdWarn=Senha incorreta. O projeto Unviewable+ VBA não pôde ser destravado.
+lc_Cancelled=Operação cancelada pelo usuário.
+lc_CannotConvert=O projeto VBA selecionado não pôde ser convertido ou já está oculto.
+lc_Cleaned=O projeto VBA project foi LIMPADO.
+lc_CleanQuery=O projeto VBA não está limpo. Deseja limpa-lo?
+lc_CleanVBAFound=Projeto Clean VBA encontrado.
+lc_CRNotice=Adicionar informação de direitos autorais
+lc_DBStamp=Adicionar Data/Inserir selo
+lc_Desc=Descrição
+lc_File=Arquivo
+lc_FileBackup=Backup de arquivo realizado
+lc_FileRO=Tu tantum vivere iam
+lc_LockedPrjFound=Um projeto VBA travado foi detectado.
+lc_MLP=Proteção em camadas múltiplas
+lc_Name=Nome
+lc_No=Não
+lc_NoPwdEntered=Não foi digitada uma senha
+lc_NoVBAWarn=Não há um projeto VBA no arquivo selecionado. Favor abrir arquivos com macros.
+lc_PersInfo=Informação pessoal no projeto VBA
+lc_PrjConverted=Arquivo convertido com sucesso.
+lc_PrjUnlocked=O projeto VBA Unviewable+ foi destravado.
+lc_ProcessQuery1=Vocês está prestes a tornar oculto o projeto VBA encontrado no arquivo selecionado. Este processo é irreversível. Certifique-se que você tem o backup do arquivo original.
+lc_ProcessQuery2=Deseja continuar?
+lc_ProcessQuery3=
+lc_ProjectCP=
+lc_ProtLevel=Nível de Proteção
+lc_ProtLevel0=Compatibilidade VbaDiff (menos seguro)
+lc_ProtLevel1=Simple
+lc_ProtLevel2=Força média
+lc_ProtLevel3=Ultimate (mais segura)
+lc_ProtType=Tipo de Proteção
+lc_ProtType0=Módulos Ocultos (Projeto VBA Visível)
+lc_ProtType1=Projeto VBA protegido com senha e oculto
+lc_ProtType2=Projeto VBA oculto travado
+lc_PwdMismatch=Senhas não conferem.
+lc_RCNotFound=
+lc_UncleanVBAFound=O projeto não está limpo.
+lc_UseRC=É recomendado usar o Ribbon Commander VBA Cleaner. Dê duplo clique para obtê-lo.
+lc_Yes=Sim
+

@@ -1,0 +1,79 @@
+﻿[precision language file]
+languagename=Russian
+rtl=0
+description=
+fileversion=1.0
+author=Valentins Kurilscikovs
+
+[Tdlg_uvba_Options]
+bCancel.Caption=Отменить
+bOK.Caption=Защитить VBA Проект
+cbxBak.Caption=Создать копию оригинального файла.
+GroupBox1.Caption=Настройки
+
+[Tdlg_uvba_Pwd]
+bCancel.Caption=Отменить
+bOK.Caption=OK
+Label2.Caption=Подтвердить пароль:
+Label6.Caption=Пароль:
+
+[Twnd_uvba_Main]
+acAbout.Caption=О программе
+acClear.Caption=Очистить\nОкно
+acExit.Caption=Выход
+acLockAccess.Caption=Закрыть\nAccess
+acLockAutoCAD.Caption=Закрыть\nAutoCAD
+acLockProjectVisio.Caption=Закрыть\nProject/Visio
+acOpen.Caption=Закрыть Excel/\nPPT/Word
+Label1.Caption=Опции бизнес версии
+Label2.Caption=Программа
+Label3.Caption=Действия
+NxTabSheet1.Caption=Рабочий стол
+
+[constants]
+lc_BadPwdWarn=Введен неверный пароль. Unviewable+ VBA не может быть открыт.
+lc_Cancelled=Операция отменена пользователем..
+lc_CannotConvert=Выбранный VBA проект не может быть конвертирован так как он уже возможно закрыт для просмотра.
+lc_CannotRunOnServer=Эта версия Unviewable+ VBA не может быть запущенна на серверной операционной системе.
+lc_Cleaned=VBA проект ОЧИЩЕН.
+lc_CleanQuery=VBA проект содержит данные. Удалить их?
+lc_CleanVBAFound=Обнаружен чистый VBA проект.
+lc_CRNotice=Добавить уведомление об Авторском праве
+lc_DBStamp=Добавить штамп Дата/Версия
+lc_Desc=Описание
+lc_File=Файл
+lc_FileBackup=Резервная копия файла сохранена в
+lc_FileLocked=Файл заблокирован или открыт.
+lc_FileRO=Файл только для чтения
+lc_LockedPrjFound=обнаружен закрытый паролем VBA проект.
+lc_MLP=Многоуровневая защита
+lc_Name=Имя
+lc_No=Нет
+lc_NoLic=The Unviewable+ VBA не может быть запущен без платной подписки на действующий фреймворк Ribbon Commander.   
+lc_NoPwdEntered=Не введен пароль
+lc_NoVBAWarn=В выбранном файле отсутсвует VBA проект. Пожалуйста откройте файл с макросом.
+lc_PersInfo=Персональная Информация в VBA проекте
+lc_PrjConverted=Файл успешно конвертирован.
+lc_PrjUnlocked=Unviewable+ VBA проект был разблокирован.
+lc_ProcessQuery1=Вы собираетесь сделать Невидимым VBA проект в выбранном файле. Этот процесс необратим. Пожалуйста убедитесь что вы создали резервную копию оригинального файла.
+lc_ProcessQuery2=Вы желаете продолжить?
+lc_ProcessQuery3=Вы собираетесь закрыть файл с базой данных MS Access.\nВы действительно желаете продолжить?
+lc_ProjectCP=Кодовая страница Проекта
+lc_ProtLevel=Уровень защиты
+lc_ProtLevel0=VbaDiff совместимый (минимальная защита)
+lc_ProtLevel1=Простой уровень
+lc_ProtLevel2=Средний уровень
+lc_ProtLevel3=Максимальный (максимальная защита)
+lc_ProtType=Тип Защиты
+lc_ProtType0=Скрытые Модули (Видимый VBA проект)
+lc_ProtType1=Невидимый защищенный паролем VBA проект
+lc_ProtType2=Невидимый закрытый VBA проект
+lc_PwdMismatch=Пароли не совпадают
+lc_RCLicInvalid=Недействительная лицензия на Ribbon Commander или закончился срок ее использования на даннолм компьютере.\n\nПожалуйста обновите лицензию на подписку на Ribbon Commander.
+lc_RCNotFound=Unviewable+ VBA работает на Ribbon Commander фреймворк версии 1.1.201.0 или старше, которая не присутствует на данном компьютере.
+lc_SystemLocaleLang=Выбранный язык для non-Unicode (VBE)
+lc_Trial=Приложение Unviewable+ VBA не может работать в пробном режиме RC.\nПожалуйста приобретите подписку на Ribbon Commander фреймворк.
+lc_UncleanVBAFound=Проект НЕ очищен.
+lc_UseRC=Настоятельно рекомендуется использование Ribbon Commander VBA Cleaner. Нажмите дважды для его получения.
+lc_UserLocaleLang=Язык пользователя
+lc_Yes=Да

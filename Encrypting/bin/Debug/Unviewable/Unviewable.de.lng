@@ -1,0 +1,68 @@
+﻿[precision language file]
+languagename=German
+rtl=0
+description=
+fileversion=1.0
+author=Mourad Louha - Excel-Translator.de
+
+[Tdlg_uvba_Options]
+bCancel.Caption=Abbrechen
+bOK.Caption=VBA-Projekt schützen
+cbxBak.Caption=Sicherungskopie der Quelldatei erstellen
+GroupBox1.Caption=Optionen
+
+[Tdlg_uvba_Pwd]
+bCancel.Caption=Abbrechen
+bOK.Caption=OK
+Label2.Caption=Kennwort bestätigen:
+Label6.Caption=Kennwort:
+
+[Twnd_uvba_Main]
+acAbout.Caption=Über
+acClear.Caption=Fenster klar
+acExit.Caption=Beenden
+acOpen.Caption=Öffnen
+Label2.Caption=Anwendung
+Label3.Caption=Aktionen
+NxTabSheet1.Caption=Startseite
+
+[constants]
+lc_BadPwdWarn=Das Kennwort ist nicht korrekt. Das VBA-Projekt kann nicht durch Unviewable+ entsperrt werden.
+lc_Cancelled=Der Vorgang wurde vom Benutzer abgebrochen.
+lc_CannotConvert=Das ausgewählte VBA-Projekt kann nicht konvertiert werden. Möglicherweise wurde das VBA-Projekt bereits konvertiert.
+lc_Cleaned=Das VBA-Projekt wurde optimiert.
+lc_CleanQuery=Das VBA-Projekt befindet sich nicht in einem optimalen Zustand. Möchten Sie das Projekt optimieren?
+lc_CleanVBAFound=Ein optimiertes VBA-Projekt wurde gefunden.
+lc_CRNotice=Copyright-Hinweis hinzufügen
+lc_DBStamp=Zeitstempel bzw. Buildnummer hinzufügen
+lc_Desc=Beschreibung
+lc_File=Datei
+lc_FileBackup=Datei wurde gesichert in
+lc_FileLocked=Datei ist gesperrt oder geöffnet.
+lc_FileRO=Datei ist schreibgeschützt
+lc_LockedPrjFound=Ein kennwortgeschüztes VBA-Projekt wurde erkannt.
+lc_MLP=Multi-Layer-Schutz
+lc_Name=Name
+lc_No=Nein
+lc_NoLic=
+lc_NoPwdEntered=Es wurde kein Kennwort angegeben
+lc_NoVBAWarn=Die ausgewählte Datei enthält kein VBA-Projekt. Bitte öffnen Sie eine Datei mit Makros.
+lc_PersInfo=Personal Information in VBA project
+lc_PrjConverted=Die Datei wurde erfolgreich konvertiert.
+lc_PrjUnlocked=Das VBA-Projekt wurde von Unviewable+ erfolgreich entsperrt.
+lc_ProcessQuery1=Sie sind dabei, das in der ausgewählten Datei gefundene VBA-Projekt zu schützen. Dieser Vorgang kann nicht rückgängig gemacht werden. Bitte stellen Sie sicher, dass Sie eine Sicherungskopie der Datei haben.
+lc_ProcessQuery2=Soll der Vorgang fortgesetzt werden?
+lc_ProtLevel=Schutzstufe
+lc_ProtLevel0=VbaDiff kompatibel (unsicherste Variante)
+lc_ProtLevel1=Simple
+lc_ProtLevel2=Mittlerer Schutz
+lc_ProtLevel3=Ultimate (sicherste Variante)
+lc_ProtType=Schutzart
+lc_ProtType0=Versteckte Module mit sichtbarem VBA-Projekt
+lc_ProtType1=Unsichtbares und kennwortgeschütztes VBA-Projekt
+lc_ProtType2=Unsichtbares und gesperrtes VBA-Projekt
+lc_PwdMismatch=Die Kennwörter stimmen nicht überein
+lc_UncleanVBAFound=Das VBA-Projekt befindet sich in einem unbereinigtem Status.
+lc_UseRC=Wir empfehlen die Nutzung des 'Ribbon Commander VBA Cleaner'. Doppelklicken Sie weitere Informationen auf diese Zeile.
+lc_Yes=Ja
+

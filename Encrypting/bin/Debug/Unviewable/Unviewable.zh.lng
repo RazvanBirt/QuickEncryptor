@@ -1,0 +1,71 @@
+﻿[precision language file]
+languagename=Chinese
+rtl=0
+description=
+fileversion=1.0
+author=ExcelHome技术服务中心
+
+[Tdlg_uvba_Options]
+bCancel.Caption=取消
+bOK.Caption=保护VBA工程
+cbxBak.Caption=备份源文件
+GroupBox1.Caption=选项
+
+[Tdlg_uvba_Pwd]
+bCancel.Caption=取消
+bOK.Caption=确定
+Label2.Caption=确认密码:
+Label6.Caption=密码:
+
+[Twnd_uvba_Main]
+acAbout.Caption=关于...
+acClear.Caption=清空
+acExit.Caption=退出
+acExit.Hint=关闭|退出程序
+acOpen.Caption=打开...
+acOpen.Hint=打开|打开现有文件
+File1.Caption=文件
+
+[constants]
+lc_BadPwdWarn=您所提供的密码不正确。Unviewable+ VBA工程未能解除锁定。
+lc_Cancelled=用户已取消操作。
+lc_CannotConvert=所选文件中的VBA工程可能已被隐藏而未能转换。
+lc_Cleaned=VBA工程已执行清理。
+lc_CleanQuery=VBA工程尚未清理。是否执行清理操作？
+lc_CleanVBAFound=VBA工程已经清理。
+lc_CRNotice=添加版权标记
+lc_DBStamp=添加日期或者版本标记
+lc_Desc=描述
+lc_File=文件
+lc_FileBackup=文件已备份至
+lc_FileLocked=文件已被锁定或者打开的。
+lc_FileRO=文件是只读的
+lc_LockedPrjFound=VBA工程已被密码锁定。
+lc_MLP=多重保护
+lc_Name=名称
+lc_No=否
+lc_NoLic=Unviewable+ VBA必须基于有效许可的Ribbon Commander框架才能运行。
+lc_NoPwdEntered=未输入密码
+lc_NoVBAWarn=所选文件中没有VBA工程。 请打开一个包含宏代码的文件。
+lc_PersInfo=VBA工程中的个人信息
+lc_PrjConverted=文件转换成功。
+lc_PrjUnlocked=Unviewable+ VBA工程已被解除锁定。
+lc_ProcessQuery1=所选文件中的VBA工程将被深度隐藏，这个过程是不可逆的。请确保您已为源文件的创建了备份。
+lc_ProcessQuery2=是否继续？
+lc_ProtLevel=保护级别
+lc_ProtLevel0=VbaDiff兼容的(最不安全)
+lc_ProtLevel1=低
+lc_ProtLevel2=中等强度
+lc_ProtLevel3=极高
+lc_ProtType=保护类型
+lc_ProtType0=隐藏模块(VBA工程可见)
+lc_ProtType1=使用密码深度隐藏VBA工程
+lc_ProtType2=深度隐藏且工程不可查看
+lc_PwdMismatch=确认的密码与先前输入的不一致。
+lc_RCLicInvalid=请重新购买Ribbon Commander的软件许可。
+lc_RCNotFound=Unviewable+ VBA基于Ribbon Commander V1.1.201.0或者更高版本，而在当前计算机上没有安装该框架。
+lc_Trial=Unviewable+ VBA应用程序无法运行在Ribbon Commander试用版本框架中。\n请购买Ribbon Commander正式版。
+lc_UncleanVBAFound=当前VBA工程可以进行清理。
+lc_UseRC=Ribbon Commander强烈推荐您使用VBA Cleaner。双击此处下载。
+lc_Yes=是
+

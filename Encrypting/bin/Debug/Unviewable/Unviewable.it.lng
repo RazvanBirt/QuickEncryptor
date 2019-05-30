@@ -1,0 +1,80 @@
+﻿[precision language file]
+languagename=Italiano
+rtl=0
+description=
+fileversion=1.0
+author=Esoteric Consulting Ltd - United Kingdom
+
+[Tdlg_uvba_Options]
+bCancel.Caption=Cancella
+bOK.Caption=Proteggi VBA Project
+cbxBak.Caption=Crea un file sorgente copia di backup
+GroupBox1.Caption=Opzioni
+
+[Tdlg_uvba_Pwd]
+bCancel.Caption=Cancella
+bOK.Caption=OK
+Label2.Caption=Conferma password:
+Label6.Caption=Password:
+
+[Twnd_uvba_Main]
+acAbout.Caption=Informazioni
+acClear.Caption=Pulisci\nSchermo
+acExit.Caption=Esci
+acLockAccess.Caption=Proteggi\nAccess
+acLockAutoCAD.Caption=Proteggi\nAutoCAD
+acLockProjectVisio.Caption=Proteggi \nProject/Visio
+acOpen.Caption=Proteggi Excel\nPPT/Word
+Label1.Caption=Funzioni Enterprise
+Label2.Caption=Applicazioni
+Label3.Caption=Azioni
+NxTabSheet1.Caption=Home
+
+[constants]
+lc_BadPwdWarn=Password non corretta. Unviewable+ VBA project non può essere sbloccato.
+lc_Cancelled=Operazione cancellata dall'utente.
+lc_CannotConvert=VBA project non puo' essere convertito in quanto gia' offuscato.
+lc_CannotRunOnServer=Questa versione di Unviewable+ VBA non può girare su questo sistema operativo.
+lc_Cleaned=VBA project e' stato pulito.
+lc_CleanQuery=VBA Project non e' pulito. vuoi che lo pulisca per te?
+lc_CleanVBAFound=Identificato VBA project pulito.
+lc_CRNotice=Aggiungi informazioni del Copyright
+lc_DBStamp=Aggiungi Data/di costruzione
+lc_Desc=Descrizione
+lc_File=File
+lc_FileBackup=File copiato in
+lc_FileLocked=File bloccato o aperto.
+lc_FileRO=File di sola lettura
+lc_LockedPrjFound=Identificato VBA project protetto.
+lc_MLP=Protezione Multi Livello
+lc_Name=Nome
+lc_No=No
+lc_NoLic=The Unviewable+ VBA non puo' funzionare senza una valida sottoscrizione a Ribbon Commander framework.
+lc_NoPwdEntered=Nessuna password digitata
+lc_NoVBAWarn=Nessuna macro all'interno del VBA project. Seleziona un altro file con macro.
+lc_PersInfo=Informazioni personali nel VBA project
+lc_PrjConverted=File convertito con successo.
+lc_PrjUnlocked=Unviewable+ VBA project e' stato sprotetto.
+lc_ProcessQuery1=Stai per proteggere il tuo VBA project rendendolo invisibile. Questo sara' un processo irreversibile. Assicurati di avere una copia di backup del file.
+lc_ProcessQuery2=Sei sicuro di continuare?
+lc_ProcessQuery3=Stai per proteggere il tuo MS Access database file.\nSei sicuro di continuare?
+lc_ProjectCP=Codepage del progetto
+lc_ProtLevel=Livello di protezione
+lc_ProtLevel0=VbaDiff compatibile (meno sicuro)
+lc_ProtLevel1=Semplice
+lc_ProtLevel2=Media robustezza
+lc_ProtLevel3=Ultimate (piu' sicura)
+lc_ProtType=Tipo di protezione
+lc_ProtType0=Moduli nascosti (Visible VBA Project)
+lc_ProtType1=Protezione VBA project con password invisibile
+lc_ProtType2=VBA project protetto con offuscamento
+lc_PwdMismatch=Passwords non corrispondenti
+lc_RCLicInvalid=La licenza del Ribbon Commander's per questo computer è scaduta o non valida.\n\nSi prega di rinnovarla.
+lc_RCNotFound=Unviewable+ VBA si basa su Ribbon Commander framework version 1.1.201.0 o successivo e non e' presente in questo computer.
+lc_SystemLocaleLang=Lingua corrente per programmi non-Unicode (VBE)
+lc_Trial=L'appplicazione Unviewable+ VBA non può funzionare con la versione TRIAL di RC.\nPer cortesia acquistare una sottoscrizione di Ribbon Commander.
+lc_UncleanVBAFound=Il progetto NON e' pulito.
+lc_UseRC=L'utilizzo di Ribbon Commander VBA Cleaner e' fortemente consigliato. Doppio click qui per acquisirlo.
+lc_UserLocaleLang=Lingua locale utente
+lc_Yes=Si
+

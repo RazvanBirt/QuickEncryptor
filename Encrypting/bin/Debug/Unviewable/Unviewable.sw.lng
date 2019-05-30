@@ -1,0 +1,80 @@
+﻿[precision language file]
+languagename=Swedish
+rtl=0
+description=
+fileversion=1.0
+author=Jörgen Möller
+
+[Tdlg_uvba_Options]
+bCancel.Caption=Avbryt
+bOK.Caption=Skydda VBA Projekt
+cbxBak.Caption=Skapa en säkerhetskopia av original-filen
+GroupBox1.Caption=Inställningar
+
+[Tdlg_uvba_Pwd]
+bCancel.Caption=Avbryt
+bOK.Caption=OK
+Label2.Caption=Bekräfta lösenord:
+Label6.Caption=Lösenord:
+
+[Twnd_uvba_Main]
+acAbout.Caption=Om
+acClear.Caption=Rensa\nfönster
+acExit.Caption=Avsluta
+acLockAccess.Caption=Lås\nAccess
+acLockAutoCAD.Caption=Lås\nAutoCAD
+acLockProjectVisio.Caption=Lås \nProject/Visio
+acOpen.Caption=Lås Excel\nPPT/Word
+Label1.Caption=Enterprise funktioner
+Label2.Caption=Program
+Label3.Caption=Åtgärder
+NxTabSheet1.Caption=Hem
+
+[constants]
+lc_BadPwdWarn=Felaktigt lösenord angivet. Unviewable+ VBA projekt kan inte bli upplåst.
+lc_Cancelled=Åtgärd avbruten av användaren.
+lc_CannotConvert=Det valda VBA projektet kan inte bli konverterat då det möjligen redan är lässkyddat.
+lc_CannotRunOnServer=Denna version av Unviewable+ VBA kan inte köras på ett server-operativsystem.
+lc_Cleaned=VBA Projekt har blivit RENSAT.
+lc_CleanQuery=VBA Projekt är INTE rensat. Vill du rensa det?
+lc_CleanVBAFound=Rensat VBA projekt funnet.
+lc_CRNotice=Lägg till Copyrightmeddelande
+lc_DBStamp=Lägg till Datum/Versionsnotering
+lc_Desc=Beskrivning
+lc_File=Fil
+lc_FileBackup=Fil säkerhetskopierad till
+lc_FileLocked=Filen är låst eller öppen.
+lc_FileRO=Filen är skrivskyddad
+lc_LockedPrjFound=Ett lösenords-skyddat VBA projekt är funnet.
+lc_MLP=Multi-lager skydd
+lc_Name=Namn
+lc_No=Nej
+lc_NoLic=Unviewable+ VBA kan inte köras utan en giltig, betald prenumeration på Ribbon Commanders basprogram.
+lc_NoPwdEntered=Inget lösenord angivet
+lc_NoVBAWarn=Det finns inget VBA projekt i den valda filen. Vänligen öppna en fil med makron.
+lc_PersInfo=Det finns personlig information i VBA projektet.
+lc_PrjConverted=Filen är framgångsrikt konverterad.
+lc_PrjUnlocked=Unviewable+ VBA projekt har blivit upplåst.
+lc_ProcessQuery1=Du är på väg att göra VBA projektet i den valda filen oläsbart. Denna process är inte reversibel. Vänligen säkerställ att du har en säkerhetskopia av originalfilen.
+lc_ProcessQuery2=Vill du fortsätta?
+lc_ProcessQuery3=Du är på väg att låsa MS Access databasfil.\nVill du verkligen fortsätta?
+lc_ProjectCP=Projekt codepage
+lc_ProtLevel=Skyddsnivå
+lc_ProtLevel0=VbaDiff kompatibel (lägsta skyddsnivå)
+lc_ProtLevel1=Enkel
+lc_ProtLevel2=Medium skyddsnivå
+lc_ProtLevel3=Ultimate (högsta skyddsnivå)
+lc_ProtType=Skyddstyp
+lc_ProtType0=Gömda Moduler (Synligt VBA Projekt)
+lc_ProtType1=Lässkyddat lösenordsskyddat VBA projekt
+lc_ProtType2=Lässkyddat låst VBA projekt
+lc_PwdMismatch=Lösenorden matchar inte
+lc_RCLicInvalid=Licensen för Ribbon Commander är ogiltig eller har löpt ut på denna dator.\n\nVänligen förnya din Ribbon Commander licens-prenumeration.
+lc_RCNotFound=Unviewable+ VBA använder Ribbon Commander basprogram version 1.1.201.0 eller senare, som inte finns på denna dator.
+lc_SystemLocaleLang=Nuvarande språk för icke-Unicode program (VBE)
+lc_Trial=Unviewable+ VBA-programmet kan inte köras medan RC är i test-status.\nVänligen köp en prenumeration på Ribbon Commanders basprogram.
+lc_UncleanVBAFound=Projektet är INTE rensat.
+lc_UseRC=Du rekommenderas starkt att använda Ribbon Commander VBA Cleaner. Dubbel-klicka här för att skaffa den.
+lc_UserLocaleLang=Användarens lokala språk
+lc_Yes=Ja
+

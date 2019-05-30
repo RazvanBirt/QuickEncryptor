@@ -1,0 +1,80 @@
+﻿[precision language file]
+languagename=English
+rtl=0
+description=
+fileversion=1.0
+author=Esoteric Consulting Ltd - United Kingdom
+
+[Tdlg_uvba_Options]
+bCancel.Caption=Cancel
+bOK.Caption=Protect VBA Project
+cbxBak.Caption=Create a source file backup copy
+GroupBox1.Caption=Options
+
+[Tdlg_uvba_Pwd]
+bCancel.Caption=Cancel
+bOK.Caption=OK
+Label2.Caption=Confirm password:
+Label6.Caption=Password:
+
+[Twnd_uvba_Main]
+acAbout.Caption=About
+acClear.Caption=Clear\nWindow
+acExit.Caption=Exit
+acLockAccess.Caption=Lock\nAccess
+acLockAutoCAD.Caption=Lock\nAutoCAD
+acLockProjectVisio.Caption=Lock \nProject/Visio
+acOpen.Caption=Lock Excel\nPPT/Word
+Label1.Caption=Enterprise features
+Label2.Caption=Application
+Label3.Caption=Actions
+NxTabSheet1.Caption=Home
+
+[constants]
+lc_BadPwdWarn=Incorrect password entered. Unviewable+ VBA project cannot be unlocked.
+lc_Cancelled=Operation cancelled by user.
+lc_CannotConvert=Selected VBA project cannot be converted as it may be already unviewable.
+lc_CannotRunOnServer=This version of Unviewable+ VBA cannot be run on server operating system.
+lc_Cleaned=VBA project has been CLEANED.
+lc_CleanQuery=VBA Project is NOT clean. Do you want to clean it?
+lc_CleanVBAFound=Clean VBA project detected.
+lc_CRNotice=Add Copyright notice
+lc_DBStamp=Add Date/Build stamp
+lc_Desc=Description
+lc_File=File
+lc_FileBackup=File backed up to
+lc_FileLocked=File is locked or opened.
+lc_FileRO=File is read-only
+lc_LockedPrjFound=A password locked VBA project has been detected.
+lc_MLP=Multi-layer protection
+lc_Name=Name
+lc_No=No
+lc_NoLic=The Unviewable+ VBA cannot be run without a valid Ribbon Commander framework paid subscription.
+lc_NoPwdEntered=No password entered
+lc_NoVBAWarn=There is no VBA project in the selected file. Please open a file with macros.
+lc_PersInfo=Personal Information in VBA project
+lc_PrjConverted=File converted succesfully.
+lc_PrjUnlocked=Unviewable+ VBA project has been unlocked.
+lc_ProcessQuery1=You are about to make the VBA project found in the selected file Unviewable. This process cannot be reversed. Please ensure that you have a backup copy of the source file.
+lc_ProcessQuery2=Do you want to continue?
+lc_ProcessQuery3=You are about to lock MS Access database file.\nDo you really want to continue?
+lc_ProjectCP=Project codepage
+lc_ProtLevel=Protection Level
+lc_ProtLevel0=VbaDiff compatible (least secure)
+lc_ProtLevel1=Simple
+lc_ProtLevel2=Medium strength
+lc_ProtLevel3=Ultimate (most secure)
+lc_ProtType=Protection Type
+lc_ProtType0=Hidden Modules (Visible VBA Project)
+lc_ProtType1=Unviewable password protected VBA project
+lc_ProtType2=Unviewable locked VBA project
+lc_PwdMismatch=Passwords do not match
+lc_RCLicInvalid=Ribbon Commander's license is invalid or has expired on this computer.\n\nPlease renew your Ribbon Commander license subscription.
+lc_RCNotFound=Unviewable+ VBA is powered by the Ribbon Commander framework version 1.1.201.0 or later, which is not present in this computer.
+lc_SystemLocaleLang=Current language for non-Unicode programs (VBE)
+lc_Trial=The Unviewable+ VBA application cannot be run while RC is in trial mode.\nPlease purchase a Ribbon Commander framework subscription.
+lc_UncleanVBAFound=Project is NOT clean.
+lc_UseRC=Use of Ribbon Commander VBA Cleaner is highly recommended. Double-click here to get it.
+lc_UserLocaleLang=User locale language
+lc_Yes=Yes
+

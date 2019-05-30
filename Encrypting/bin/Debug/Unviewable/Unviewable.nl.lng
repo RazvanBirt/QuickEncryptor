@@ -1,0 +1,71 @@
+﻿[precision language file]
+languagename=Dutch
+rtl=0
+description=
+fileversion=1.0
+author=Ed Lutjeboer - HB Software b.v.
+
+[Tdlg_uvba_Options]
+bCancel.Caption=Stop
+bOK.Caption=Beveilig het VBA Project
+cbxBak.Caption=Bewaar een kopie van het originele project
+GroupBox1.Caption=Opties
+
+[Tdlg_uvba_Pwd]
+bCancel.Caption=Stop
+bOK.Caption=Akkoord
+Label2.Caption=Herhaal wachtwoord:
+Label6.Caption=Wachtwoord:
+
+[Twnd_uvba_Main]
+acAbout.Caption=Over...
+acClear.Caption=Legen
+acExit.Caption=Stoppen
+acExit.Hint=Beëindigd het programma
+acOpen.Caption=Open...
+acOpen.Hint=Opent een bestaand bestand
+File1.Caption=Bestand
+
+[constants]
+lc_BadPwdWarn=Wachtwoord incorrect. Unviewable+ VBA project kant niet ontsloten worden.
+lc_Cancelled=Bewerking onderbroken door gebruiker.
+lc_CannotConvert=Het VBA project kan niet worden geconverteerd omdat het al unviewable is.
+lc_Cleaned=Het VBA project is geschoond
+lc_CleanQuery=Het VBA Project is NIET schoon. Wilt u het schonen?
+lc_CleanVBAFound=Het VBA project is reeds geschoond.
+lc_CRNotice=Voeg een Copyright notitie toe
+lc_DBStamp=Voeg een Datum/Buildnummer toe
+lc_Desc=Beschrijving
+lc_File=Bestand
+lc_FileBackup=Bestand gekopiëerd naar
+lc_FileLocked=Bestand is op slot of geopend
+lc_FileRO=Bestand is alleen lezen
+lc_LockedPrjFound=Het VBA project is met een wachtwoord beveiligd
+lc_MLP=Meerdere lagen bescherming
+lc_Name=Naam
+lc_No=Nee
+lc_NoLic=Unviewable+ kan niet worden gebruikt zonder Ribbon Commander framework licentie.
+lc_NoPwdEntered=Geen wachtwoord ingegeven
+lc_NoVBAWarn=In het geselecteerde bestand is geen VBA project aangetroffen. Open een bestand met een VBA project.
+lc_PersInfo=Persoonlijke informatie aangetroffen in het VBA project
+lc_PrjConverted=Bestand succesvol geconverteerd.
+lc_PrjUnlocked=Unviewable+ VBA project is nu ontsloten.
+lc_ProcessQuery1=Het VBA project wordt Unviewable gemaakt. Dit kan niet ongedaan worden gemaakt. Zorg ervoor dat u een kopie van het bronbestand heeft.
+lc_ProcessQuery2=Wilt u doorgaan?
+lc_ProtLevel=Bescherming sterkte
+lc_ProtLevel0=Compatible met VbaDiff (laagste bescherming)
+lc_ProtLevel1=Laag
+lc_ProtLevel2=Gemiddeld
+lc_ProtLevel3=Hoog (Hoogste bescherming)
+lc_ProtType=Type bescherming
+lc_ProtType0=Verborgen Modules (Zichtbaar VBA Project)
+lc_ProtType1=Verborgen en met wachtwoord beschermd VBA project
+lc_ProtType2=Verborgen en gesloten VBA project
+lc_PwdMismatch=Wachtwoorden komen niet overeen
+lc_RCLicInvalid=De Ribbon Commander licentie is ongeldig of verlopen op deze computer.\n\nVernieuw uw Ribbon Commander licentie.
+lc_RCNotFound=Voor Unviewable+ VBA is het Ribbon Commander framework versie 1.1.201.0 of hoger nodig, deze is niet op uw computer aanwezig.
+lc_Trial=Unviewable+ VBA werkt niet in een RC test omgeving.\nZorg voor een Ribbon Commander framework licentie.
+lc_UncleanVBAFound=Het project is NIET schoon.
+lc_UseRC=Het gebruik van de Ribbon Commander VBA Cleaner wordt sterk aanbevolen. Dubbelklik hier om het te verkrijgen.
+lc_Yes=Ja
+

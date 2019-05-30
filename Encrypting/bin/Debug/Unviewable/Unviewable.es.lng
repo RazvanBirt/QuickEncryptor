@@ -1,0 +1,67 @@
+﻿[precision language file]
+languagename=Spanish
+rtl=0
+description=
+fileversion=1.0
+author=Fabrice@Rimlinger.eu - LAOFICINA.COM.CO - Colombia
+
+[Tdlg_uvba_Options]
+bCancel.Caption=Cancelar
+bOK.Caption=Proteger Proyecto VBA
+cbxBak.Caption=Crear una copia de seguridad de los archivos fuente
+GroupBox1.Caption=Opciones
+
+[Tdlg_uvba_Pwd]
+bCancel.Caption=Cancelar
+bOK.Caption=OK
+Label2.Caption=Confirmar contraseńa:
+Label6.Caption=Contraseńa:
+
+[Twnd_uvba_Main]
+acAbout.Caption=Acerca de
+acClear.Caption=Limpiar ventana
+acExit.Caption=Salir
+acOpen.Caption=Abrir
+Label2.Caption=Aplicación
+Label3.Caption=Acciones
+NxTabSheet1.Caption=Inicio
+
+[constants]
+lc_BadPwdWarn=La contraseńa ingresada es incorrecta. El proyecto Unviewable+ VBA no se puede desbloquear.
+lc_Cancelled=Operación cancelada por el usuario.
+lc_CannotConvert=El Proyecto VBA seleccionado no se puede convertir. Es posible que ya haya sido procesado por Unviewable+.
+lc_Cleaned=El proyecto VBA ya esta limpio!
+lc_CleanQuery=El proyecto VBA NO esta limpio. Desea limpiarlo ?
+lc_CleanVBAFound=Proyecto VBA limpio encontrado.
+lc_CRNotice=Ańadir aviso de derechos de autor.
+lc_DBStamp=Ańadir fecha/número de versión
+lc_Desc=Descripción
+lc_File=Archivo
+lc_FileBackup=Archivo de seguridad guardado en
+lc_FileLocked=Archivo esté abierto o cerrado.
+lc_FileRO=El archivo es solo de lectura.
+lc_LockedPrjFound=Se ha encontrado un proyecto VBA bloqueado por contraseńa.
+lc_MLP=Protección multicapa
+lc_Name=Nombre
+lc_No=No
+lc_NoPwdEntered=Introduzca una contraseńa
+lc_NoVBAWarn=El archivo seleccionado no contiene ningun proyecto VBA. Por favor abra un archivo con macros.
+lc_PersInfo=Información personal dentro del proyecto VBA
+lc_PrjConverted=El archivo ha sido convertido correctamente.
+lc_PrjUnlocked=El Proyecto VBA Unviewable+ ha sido desbloqueado.
+lc_ProcessQuery1=Unviewable+ procesará el proyecto VBA del archivo seleccionado. Este proceso no se puede reversar. Por favor, asegúrese de que tiene una copia de seguridad del archivo fuente.
+lc_ProcessQuery2=Desea continuar?
+lc_ProtLevel=Nivel de protección
+lc_ProtLevel0=VbaDiff compatible (menos seguro)
+lc_ProtLevel1=Simple
+lc_ProtLevel2=Fuerza intermedia
+lc_ProtLevel3=Extremo (más seguro)
+lc_ProtType=Tipo de protección
+lc_ProtType0=Módulos Ocultos (Proyecto VBA Visible).
+lc_ProtType1=Proyecto VBA Unviewable+ protegido por contraseńa .
+lc_ProtType2=Proyecto VBA Unviewable+ bloqueado.
+lc_PwdMismatch=Las contraseńas no coinciden.
+lc_UncleanVBAFound=El Proyecto no está limpio.
+lc_UseRC=Se recomienda utilizar Ribbon Commander VBA Cleaner.Pulse doble click aquí para obternerlo.
+lc_Yes=Si
+
