@@ -27,6 +27,7 @@ namespace Encrypting
         static string unviewableDirectory = projectDirectory + @"\Unviewable\UnviewablePlus.exe";
         static string templateDirectory = projectDirectory + @"\Unviewable\TEMPLATE.XLSB";
         static string templateDirectoryOriginal = projectDirectory + @"\TEMPLATE.XLSB";
+        static string logFilePath = @".\log.txt"; 
         string nameFile = "";
 
         Process p = new Process();
@@ -38,7 +39,7 @@ namespace Encrypting
         static DateTime currentT = DateTime.Now;
         static string currentTime = currentT.ToString("ddMMyy-HHmm");
         
-        static string logFilePath = @".\log.txt";
+        
 
         InputSimulator sim = new InputSimulator();
         StreamWriter sw = new StreamWriter(logFilePath, true);
@@ -49,12 +50,12 @@ namespace Encrypting
 
         private void buttonSearch_Click(object sender, EventArgs e)
         {
-            folderBrowserDialog1.SelectedPath = @"S:\PARIS-VAT\VATSystems_PRODUCTION\PROCESS_ACTIVITY\CLIENTS";       
+            //folderBrowserDialog1.SelectedPath = @"S:\PARIS-VAT\VATSystems_PRODUCTION\PROCESS_ACTIVITY\CLIENTS";       
             // open folder browser to choose path for encryption 
             if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
             {
             path = folderBrowserDialog1.SelectedPath;
-            textBoxPath.Text = path;
+                textBoxConsole.Text = textBoxConsole.Text + System.Environment.NewLine + path;
             }
         
         }
@@ -86,21 +87,39 @@ namespace Encrypting
             System.Threading.Thread.Sleep(3000);
 
             // run first cicle
-            SendKeys.SendWait("{ENTER}");
+            sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
+
             System.Threading.Thread.Sleep(3000);
-            SendKeys.SendWait("{TAB}");
+
+            sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+
             System.Threading.Thread.Sleep(3000);
-            SendKeys.SendWait("{UP}");
+
+            sim.Keyboard.KeyPress(VirtualKeyCode.UP);
+
             System.Threading.Thread.Sleep(3000);
-            SendKeys.SendWait("{TAB}");
+
+            sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+
             System.Threading.Thread.Sleep(3000);
-            SendKeys.SendWait(" ");
+
+            sim.Keyboard.KeyPress(VirtualKeyCode.SPACE);
+
             System.Threading.Thread.Sleep(3000);
-            SendKeys.SendWait("{TAB}{TAB}{TAB}{TAB}{TAB}");
+
+            sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+            sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+            sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+            sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+            sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+
             System.Threading.Thread.Sleep(3000);
-            SendKeys.SendWait("{ENTER}");
+
+            sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
+
             System.Threading.Thread.Sleep(3000);
-            SendKeys.SendWait("{ENTER}");
+
+            sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
 
             System.Threading.Thread.Sleep(3000);
 
@@ -153,17 +172,33 @@ namespace Encrypting
                     sim.Keyboard.TextEntry(filePaths[i]);
 
                     System.Threading.Thread.Sleep(1000);
-                    SendKeys.SendWait("{ENTER}");
+
+                    sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
+
                     System.Threading.Thread.Sleep(1000);
-                    SendKeys.SendWait("{TAB}{TAB}");
+
+                    sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+                    sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+
                     System.Threading.Thread.Sleep(1000);
-                    SendKeys.SendWait(" ");
+
+                    sim.Keyboard.KeyPress(VirtualKeyCode.SPACE);
+
                     System.Threading.Thread.Sleep(1000);
-                    SendKeys.SendWait("{TAB}{TAB}{TAB}{TAB}{TAB}");
+
+                    sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+                    sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+                    sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+                    sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+                    sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+
                     System.Threading.Thread.Sleep(1000);
-                    SendKeys.SendWait("{ENTER}");
+
+                    sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
+
                     System.Threading.Thread.Sleep(1000);
-                    SendKeys.SendWait("{ENTER}");
+
+                    sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
 
                     currentT = DateTime.Now;
                     currentTime = currentT.ToString("ddMMyy-HHmm");
@@ -207,20 +242,5 @@ namespace Encrypting
             }      
         }
 
-        private void textBoxPath_TextChanged(object sender, EventArgs e)
-        {
-
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }

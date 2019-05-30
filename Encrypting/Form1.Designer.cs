@@ -38,11 +38,14 @@
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.textBoxArrayStart = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonSearch
             // 
-            this.buttonSearch.Location = new System.Drawing.Point(435, 12);
+            this.buttonSearch.Location = new System.Drawing.Point(542, 91);
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.Size = new System.Drawing.Size(94, 21);
             this.buttonSearch.TabIndex = 0;
@@ -52,24 +55,23 @@
             // 
             // textBoxPath
             // 
-            this.textBoxPath.Location = new System.Drawing.Point(12, 12);
+            this.textBoxPath.Location = new System.Drawing.Point(12, 91);
             this.textBoxPath.Name = "textBoxPath";
-            this.textBoxPath.Size = new System.Drawing.Size(330, 20);
+            this.textBoxPath.Size = new System.Drawing.Size(524, 20);
             this.textBoxPath.TabIndex = 1;
-            this.textBoxPath.TextChanged += new System.EventHandler(this.textBoxPath_TextChanged);
             // 
             // textBoxConsole
             // 
-            this.textBoxConsole.Location = new System.Drawing.Point(12, 53);
+            this.textBoxConsole.Location = new System.Drawing.Point(12, 132);
             this.textBoxConsole.Multiline = true;
             this.textBoxConsole.Name = "textBoxConsole";
             this.textBoxConsole.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBoxConsole.Size = new System.Drawing.Size(682, 334);
+            this.textBoxConsole.Size = new System.Drawing.Size(789, 355);
             this.textBoxConsole.TabIndex = 3;
             // 
             // buttonEncrypt
             // 
-            this.buttonEncrypt.Location = new System.Drawing.Point(535, 12);
+            this.buttonEncrypt.Location = new System.Drawing.Point(642, 91);
             this.buttonEncrypt.Name = "buttonEncrypt";
             this.buttonEncrypt.Size = new System.Drawing.Size(159, 21);
             this.buttonEncrypt.TabIndex = 4;
@@ -87,7 +89,7 @@
             // 
             // textBoxArrayStart
             // 
-            this.textBoxArrayStart.Location = new System.Drawing.Point(13, 414);
+            this.textBoxArrayStart.Location = new System.Drawing.Point(12, 515);
             this.textBoxArrayStart.Name = "textBoxArrayStart";
             this.textBoxArrayStart.Size = new System.Drawing.Size(100, 20);
             this.textBoxArrayStart.TabIndex = 5;
@@ -95,16 +97,47 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 395);
+            this.label1.Location = new System.Drawing.Point(13, 474);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 6;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(13, 499);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(72, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Starting point:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(12, 18);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(201, 31);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "QuickEncryptor";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(9, 75);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(115, 13);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Path to files to encrypt:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(706, 451);
+            this.ClientSize = new System.Drawing.Size(813, 543);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxArrayStart);
             this.Controls.Add(this.buttonEncrypt);
@@ -114,7 +147,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
             this.Text = "QuickEncryptor";
-            this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,6 +163,9 @@
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.TextBox textBoxArrayStart;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
