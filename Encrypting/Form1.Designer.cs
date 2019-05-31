@@ -68,6 +68,7 @@
             this.textBoxConsole.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.textBoxConsole.Size = new System.Drawing.Size(789, 355);
             this.textBoxConsole.TabIndex = 3;
+            this.textBoxConsole.TextChanged += new System.EventHandler(this.TextBoxConsole_TextChanged);
             // 
             // buttonEncrypt
             // 
@@ -147,6 +148,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
             this.Text = "QuickEncryptor";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

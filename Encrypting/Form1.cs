@@ -76,6 +76,8 @@ namespace Encrypting
             System.Threading.Thread.Sleep(3000);
 
             copyFile(templateDirectoryOriginal, Directory.GetCurrentDirectory() + @"\Unviewable");
+
+            
             textBoxConsole.Text = textBoxConsole.Text + System.Environment.NewLine + "----------------------------------------------------------";
             sw.WriteLine("----------------------------------------------------------");
 
@@ -202,6 +204,11 @@ namespace Encrypting
 
                     currentT = DateTime.Now;
                     currentTime = currentT.ToString("ddMMyy-HHmm");
+
+                    //textBoxConsole.SelectionStart = textBoxConsole.Text.Length;
+                    //textBoxConsole.SelectionLength = 0;
+
+                    textBoxConsole.Select(textBoxConsole.Text.Length , 0);
                     textBoxConsole.Text = textBoxConsole.Text + System.Environment.NewLine + currentT + " - " + filePaths[i] + " ||Encryption Done";               
                     sw.WriteLine(currentT + " - " + filePaths[i] + " ||Encryption Done");
                 }
@@ -242,5 +249,14 @@ namespace Encrypting
             }      
         }
 
+        private void TextBoxConsole_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
