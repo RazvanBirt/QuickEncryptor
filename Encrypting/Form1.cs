@@ -129,7 +129,7 @@ namespace Encrypting
 
             for (int i = x; i < currentDirectories.Length; i++)
             {
-                label1.Text = i.ToString();
+                label2.Text = "Starting point: " + i.ToString();
                 encrypt_files(currentDirectories[i]);              
             }
             System.Threading.Thread.Sleep(500);
@@ -207,14 +207,19 @@ namespace Encrypting
 
                     //textBoxConsole.SelectionStart = textBoxConsole.Text.Length;
                     //textBoxConsole.SelectionLength = 0;
+                    //textBoxConsole.Select(textBoxConsole.Text.Length , 0);
 
-                    textBoxConsole.Select(textBoxConsole.Text.Length , 0);
-                    textBoxConsole.Text = textBoxConsole.Text + System.Environment.NewLine + currentT + " - " + filePaths[i] + " ||Encryption Done";               
+                    textBoxConsole.AppendText(textBoxConsole.Text + System.Environment.NewLine + currentT + " - " + filePaths[i] + " ||Encryption Done");               
                     sw.WriteLine(currentT + " - " + filePaths[i] + " ||Encryption Done");
                 }
                 textBoxConsole.Text = textBoxConsole.Text + System.Environment.NewLine + nFiles + " files were Encrypted";
                 sw.WriteLine(nFiles + " files were Encrypted");
             }
+        }
+
+        private void type_console()
+        {
+
         }
 
         private void copyFile(string FOri, string FDest)

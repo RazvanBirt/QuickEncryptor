@@ -9624,3 +9624,41 @@ C:\Users\razva\Desktop\asfasfasdasd\Decrypted: 30 files to encrypt
 31/05/2019 09:58:54 - C:\Users\razva\Desktop\asfasfasdasd\Decrypted\VSUM_29_LV.XLSB ||Encryption Done
 31/05/2019 09:59:02 - C:\Users\razva\Desktop\asfasfasdasd\Decrypted\VSUM_30_EE.XLSB ||Encryption Done
 30 files were Encrypted
+----------------------------------------------------------
+C:\Users\pc\Desktop\New folder (2)\New folder: 2 files to encrypt
+6/3/2019 3:28:19 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_01_CH.XLSB ||Encryption Done
+6/3/2019 3:28:27 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_02_IE.XLSB ||Encryption Done
+2 files were Encrypted
+----------------------------------------------------------
+C:\Users\pc\Desktop\New folder (2)\New folder: 30 files to encrypt
+6/3/2019 3:30:33 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_13_SK.xlsm ||Encryption Done
+6/3/2019 3:30:41 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_15_AT.XLSM ||Encryption Done
+6/3/2019 3:30:49 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_21_RO.xlsm ||Encryption Done
+6/3/2019 3:30:57 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_01_CH.XLSB ||Encryption Done
+6/3/2019 3:31:05 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_02_IE.XLSB ||Encryption Done
+6/3/2019 3:31:13 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_03_MT.XLSB ||Encryption Done
+6/3/2019 3:31:21 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_04_BG.XLSB ||Encryption Done
+6/3/2019 3:31:29 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_05_PT.XLSB ||Encryption Done
+6/3/2019 3:31:38 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_06_IT.XLSB ||Encryption Done
+6/3/2019 3:31:46 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_07_CZ.XLSB ||Encryption Done
+6/3/2019 3:31:54 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_08_FR.xlsb ||Encryption Done
+6/3/2019 3:32:02 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_09_HR.XLSB ||Encryption Done
+6/3/2019 3:32:10 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_10_SI.xlsb ||Encryption Done
+6/3/2019 3:32:18 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_11_GB.XLSB ||Encryption Done
+6/3/2019 3:32:26 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_12_BE.XLSB ||Encryption Done
+6/3/2019 3:32:34 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_14_DE.XLSB ||Encryption Done
+6/3/2019 3:32:42 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_16_ES.XLSB ||Encryption Done
+6/3/2019 3:32:50 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_17_DK.XLSB ||Encryption Done
+6/3/2019 3:32:58 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_18_FI.XLSB ||Encryption Done
+6/3/2019 3:33:06 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_19_PL.XLSB ||Encryption Done
+6/3/2019 3:33:14 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_20_EL.xlsb ||Encryption Done
+6/3/2019 3:33:22 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_22_SE.XLSB ||Encryption Done
+6/3/2019 3:33:30 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_23_NL.XLSB ||Encryption Done
+6/3/2019 3:33:38 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_24_LU.XLSB ||Encryption Done
+6/3/2019 3:33:47 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_25_CY.XLSB ||Encryption Done
+6/3/2019 3:33:55 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_26_HU.XLSB ||Encryption Done
+6/3/2019 3:34:03 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_27_LT.XLSB ||Encryption Done
+6/3/2019 3:34:11 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_28_NO.XLSB ||Encryption Done
+6/3/2019 3:34:19 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_29_LV.XLSB ||Encryption Done
+6/3/2019 3:34:27 PM - C:\Users\pc\Desktop\New folder (2)\New folder\VSUM_30_EE.XLSB ||Encryption Done
+30 files were Encrypted
