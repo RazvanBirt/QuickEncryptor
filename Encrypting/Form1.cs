@@ -37,49 +37,62 @@ namespace Encrypting
         string[] filePaths_xlsb;
 
         static DateTime currentT = DateTime.Now;
-        static string currentTime = currentT.ToString("ddMMyy-HHmm");
-        
-        
+        static string currentTime = currentT.ToString("ddMMyy-HHmm"); 
 
         InputSimulator sim = new InputSimulator();
         StreamWriter sw = new StreamWriter(logFilePath, true);
-
 
         [DllImport("User32.dll")]
         static extern int SetForegroundWindow(IntPtr point);
 
         private void buttonSearch_Click(object sender, EventArgs e)
-        {
-            //folderBrowserDialog1.SelectedPath = @"S:\PARIS-VAT\VATSystems_PRODUCTION\PROCESS_ACTIVITY\CLIENTS";       
+        { 
             // open folder browser to choose path for encryption 
             if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
             {
-            path = folderBrowserDialog1.SelectedPath;
-                textBoxConsole.Text = textBoxConsole.Text + System.Environment.NewLine + path;
+                if (textBoxPath.Text == "")
+                {
+                    path = folderBrowserDialog1.SelectedPath;                  
+                }
+                else if (textBoxPath.Text != "")
+                {
+                    path = textBoxPath.Text;
+                }
+                type_console(path);
             }
-        
+            currentDirectories = Directory.GetDirectories(path);
+
+            for (int i = 0; i < currentDirectories.Length; i++)
+            {
+                // find both excel extensions
+                filePaths_xlsm = Directory.GetFiles(currentDirectories[i], "*.xlsm", SearchOption.AllDirectories);
+                filePaths_xlsb = Directory.GetFiles(currentDirectories[i], "*.xlsb", SearchOption.AllDirectories);
+
+                // combine both arrays into one, to have a complete one to start encrypting on by one
+                Array.Resize<string>(ref filePaths, filePaths_xlsm.Length + filePaths_xlsb.Length);
+                //             copy to array filepaths starting index 0
+                filePaths_xlsm.CopyTo(filePaths, 0);
+                //             copy to array filepaths starting index X = filePaths_xlsm.Length
+                filePaths_xlsb.CopyTo(filePaths, filePaths_xlsm.Length);
+
+                type_console(currentDirectories[i]);
+                    for (int j = 0; j < filePaths.Length;j++)
+                {
+                    type_console("    " + filePaths[j]);
+                }
+            }
         }
 
         private void buttonEncrypt_Click(object sender, EventArgs e)
         {
-            //create text file for logs
-            path = textBoxPath.Text;
-            // get main directories for then encrypt files in side at a time
-            currentDirectories = Directory.GetDirectories(path);
-
             // open and focus on unviewable window         
             p = Process.Start(unviewableDirectory);
-
             IntPtr h = p.MainWindowHandle;
             SetForegroundWindow(h);
 
             System.Threading.Thread.Sleep(3000);
-
             copyFile(templateDirectoryOriginal, Directory.GetCurrentDirectory() + @"\Unviewable");
-
-            
-            textBoxConsole.Text = textBoxConsole.Text + System.Environment.NewLine + "----------------------------------------------------------";
-            sw.WriteLine("----------------------------------------------------------");
+            type_console("----------------------------------------------------------");
 
             // starting process of encryption
             System.Threading.Thread.Sleep(3000);
@@ -88,43 +101,30 @@ namespace Encrypting
             SendKeys.SendWait(templateDirectory);
             System.Threading.Thread.Sleep(3000);
 
-            // run first cicle
+            // run first cicle to get the settings all OK
             sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
-
             System.Threading.Thread.Sleep(3000);
-
             sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
-
             System.Threading.Thread.Sleep(3000);
-
             sim.Keyboard.KeyPress(VirtualKeyCode.UP);
-
             System.Threading.Thread.Sleep(3000);
-
             sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
-
             System.Threading.Thread.Sleep(3000);
-
             sim.Keyboard.KeyPress(VirtualKeyCode.SPACE);
-
             System.Threading.Thread.Sleep(3000);
-
             sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
             sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
             sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
             sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
             sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
-
             System.Threading.Thread.Sleep(3000);
-
             sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
-
             System.Threading.Thread.Sleep(3000);
-
             sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
-
             System.Threading.Thread.Sleep(3000);
 
+            // in case of necessity or error to start from where it stopped 
+            // to input into the textBoxArrayStart the index of the array where it stopped
             int x = int.Parse(textBoxArrayStart.Text);
 
             for (int i = x; i < currentDirectories.Length; i++)
@@ -139,89 +139,73 @@ namespace Encrypting
 
         private void encrypt_files(string subPath)
         {
-            // find both excel extensions
-            filePaths_xlsm = Directory.GetFiles(subPath, "*.xlsm", SearchOption.AllDirectories);
-            filePaths_xlsb = Directory.GetFiles(subPath, "*.xlsb", SearchOption.AllDirectories);
-            
-            // combine both arrays into one for then have a complete one to start encrypting on by one
-            Array.Resize<string>(ref filePaths, filePaths_xlsm.Length + filePaths_xlsb.Length);
-            filePaths_xlsm.CopyTo(filePaths, 0);
-            filePaths_xlsb.CopyTo(filePaths, filePaths_xlsm.Length);          
 
+            // verify if subPath has files to start encrypting
             if (filePaths.Length != 0)
             {
-                textBoxConsole.Text = textBoxConsole.Text + System.Environment.NewLine + subPath + ": " + filePaths.Length + " files to encrypt";
-                sw.WriteLine(subPath + ": " + filePaths.Length + " files to encrypt");
+                type_console(subPath + ": " + filePaths.Length + " files to encrypt");
             }
             else
             {
-                textBoxConsole.Text = textBoxConsole.Text + System.Environment.NewLine + subPath + ": 0 files to encrypt";
-                sw.WriteLine(subPath + ": 0 files to encrypt");
+                type_console(subPath + ": 0 files to encrypt");
             }
 
+            // 2nd cicle with all the settings OK
+            // actual process of encrypting going one by one per subPath/currentDirectories
             int nFiles = 0;
+            // nFiles to get number of files that were encrypter to later get presented on the console and logs
             if (filePaths.Length != 0)
             {
                 System.Threading.Thread.Sleep(1500);
-                // run second and final cicle, because its different while unviewable its still open saves some stuff done to it
                 for (int i = 0; i < filePaths.Length; i++)
                 {                 
                     nFiles++;
                     System.Threading.Thread.Sleep(1000);
                     SendKeys.SendWait("^o");
-                    System.Threading.Thread.Sleep(1000);
-                    // new way to send text to the textbox of unviewable openFileDialog
+                    System.Threading.Thread.Sleep(1000);              
                     sim.Keyboard.TextEntry(filePaths[i]);
-
                     System.Threading.Thread.Sleep(1000);
-
                     sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
-
                     System.Threading.Thread.Sleep(1000);
-
                     sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
                     sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
-
                     System.Threading.Thread.Sleep(1000);
-
                     sim.Keyboard.KeyPress(VirtualKeyCode.SPACE);
-
                     System.Threading.Thread.Sleep(1000);
-
                     sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
                     sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
                     sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
                     sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
                     sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
-
                     System.Threading.Thread.Sleep(1000);
-
                     sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
-
                     System.Threading.Thread.Sleep(1000);
-
                     sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
 
                     currentT = DateTime.Now;
                     currentTime = currentT.ToString("ddMMyy-HHmm");
 
-                    //textBoxConsole.SelectionStart = textBoxConsole.Text.Length;
-                    //textBoxConsole.SelectionLength = 0;
-                    //textBoxConsole.Select(textBoxConsole.Text.Length , 0);
-
-                    textBoxConsole.AppendText(textBoxConsole.Text + System.Environment.NewLine + currentT + " - " + filePaths[i] + " ||Encryption Done");               
-                    sw.WriteLine(currentT + " - " + filePaths[i] + " ||Encryption Done");
+                    type_console(currentT + " - " + filePaths[i] + " ||Encryption Done");               
                 }
-                textBoxConsole.Text = textBoxConsole.Text + System.Environment.NewLine + nFiles + " files were Encrypted";
-                sw.WriteLine(nFiles + " files were Encrypted");
+                type_console(nFiles + " files were Encrypted");
             }
         }
 
-        private void type_console()
+        // function to type on the console and on the logs
+        // made to be easier on the eyes
+        private void type_console(string TextToType)
         {
-
+            textBoxConsole.Focus();
+            textBoxConsole.Text = textBoxConsole.Text + System.Environment.NewLine + TextToType;
+            sw.WriteLine(TextToType);
+            //move the caret to the end of the text
+            textBoxConsole.SelectionStart = textBoxConsole.TextLength;
+            //scroll to the caret
+            textBoxConsole.ScrollToCaret();
         }
 
+        // function copyFile to copy the template file from templateDirectoryOriginal to templateDirectory so there could be always a decrypted version of the template
+        // so the encrypting process can start correctly
         private void copyFile(string FOri, string FDest)
         {
             if (File.Exists(FOri) == false)
@@ -239,19 +223,6 @@ namespace Encrypting
                     MessageBox.Show("Error: " + ex.Message);
                 }
             }
-        }
-
-        private void readFile(string file, int numberOfLines)
-        {
-
-            StreamReader readFile = new StreamReader(file);
-            string[] arrayOfLines = new string[numberOfLines];
-
-            for( int i = 1; i < numberOfLines; i++)
-            {
-                arrayOfLines[i] = readFile.ReadLine();
-                //textBoxConsole.Text = textBoxConsole.Text + System.Environment.NewLine + arrayOfLines[i];
-            }      
         }
 
         private void TextBoxConsole_TextChanged(object sender, EventArgs e)

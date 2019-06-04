@@ -37,3 +37,16 @@ C:\Users\razva\Desktop\QuickEncryptor\Encrypting\obj\Debug\Encrypting.csproj.Cor
 C:\Users\razva\Desktop\QuickEncryptor\Encrypting\obj\Debug\Encrypting.csproj.CopyComplete
 C:\Users\razva\Desktop\QuickEncryptor\Encrypting\obj\Debug\Encrypting.exe
 C:\Users\razva\Desktop\QuickEncryptor\Encrypting\obj\Debug\Encrypting.pdb
+C:\Users\pc\Desktop\QuickEncryptor\Encrypting\bin\Debug\Encrypting.exe.config
+C:\Users\pc\Desktop\QuickEncryptor\Encrypting\bin\Debug\Encrypting.exe
+C:\Users\pc\Desktop\QuickEncryptor\Encrypting\bin\Debug\Encrypting.pdb
+C:\Users\pc\Desktop\QuickEncryptor\Encrypting\bin\Debug\WindowsInput.dll
+C:\Users\pc\Desktop\QuickEncryptor\Encrypting\bin\Debug\WindowsInput.xml
+C:\Users\pc\Desktop\QuickEncryptor\Encrypting\obj\Debug\Encrypting.Form1.resources
+C:\Users\pc\Desktop\QuickEncryptor\Encrypting\obj\Debug\Encrypting.Properties.Resources.resources
+C:\Users\pc\Desktop\QuickEncryptor\Encrypting\obj\Debug\Encrypting.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\QuickEncryptor\Encrypting\obj\Debug\Encrypting.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\QuickEncryptor\Encrypting\obj\Debug\Encrypting.csproj.CopyComplete
+C:\Users\pc\Desktop\QuickEncryptor\Encrypting\obj\Debug\Encrypting.exe
+C:\Users\pc\Desktop\QuickEncryptor\Encrypting\obj\Debug\Encrypting.pdb
+C:\Users\pc\Desktop\QuickEncryptor\Encrypting\obj\Debug\Encrypting.csprojAssemblyReference.cache
