@@ -58,6 +58,7 @@
             this.textBoxPath.Name = "textBoxPath";
             this.textBoxPath.Size = new System.Drawing.Size(524, 20);
             this.textBoxPath.TabIndex = 1;
+            this.textBoxPath.TextChanged += new System.EventHandler(this.textBoxPath_TextChanged);
             // 
             // textBoxConsole
             // 
@@ -107,7 +108,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 18);
+            this.label3.Location = new System.Drawing.Point(6, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(201, 31);
             this.label3.TabIndex = 8;

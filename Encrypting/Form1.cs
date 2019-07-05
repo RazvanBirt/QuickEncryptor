@@ -49,18 +49,14 @@ namespace Encrypting
         { 
             // open folder browser to choose path for encryption 
             if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
-            {
-                if (textBoxPath.Text == "")
-                {
-                    path = folderBrowserDialog1.SelectedPath;                  
-                }
-                else if (textBoxPath.Text != "")
-                {
-                    path = textBoxPath.Text;
-                }
+            {   
+                 path = folderBrowserDialog1.SelectedPath;                  
+ 
                 type_console(path);
             }
             currentDirectories = Directory.GetDirectories(path);
+
+            textBoxPath.Text = path;
 
             for (int i = 0; i < currentDirectories.Length; i++)
             {
@@ -76,65 +72,74 @@ namespace Encrypting
                 filePaths_xlsb.CopyTo(filePaths, filePaths_xlsm.Length);
 
                 type_console(currentDirectories[i]);
-                    for (int j = 0; j < filePaths.Length;j++)
+                for (int j = 0; j < filePaths.Length;j++)
                 {
-                    type_console("    " + filePaths[j]);
+                    type_console("          " + filePaths[j]);
                 }
             }
         }
 
         private void buttonEncrypt_Click(object sender, EventArgs e)
         {
-            // open and focus on unviewable window         
-            p = Process.Start(unviewableDirectory);
-            IntPtr h = p.MainWindowHandle;
-            SetForegroundWindow(h);
-
-            System.Threading.Thread.Sleep(3000);
-            copyFile(templateDirectoryOriginal, Directory.GetCurrentDirectory() + @"\Unviewable");
-            type_console("----------------------------------------------------------");
-
-            // starting process of encryption
-            System.Threading.Thread.Sleep(3000);
-            SendKeys.SendWait("^o");
-            System.Threading.Thread.Sleep(3000);
-            SendKeys.SendWait(templateDirectory);
-            System.Threading.Thread.Sleep(3000);
-
-            // run first cicle to get the settings all OK
-            sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
-            System.Threading.Thread.Sleep(3000);
-            sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
-            System.Threading.Thread.Sleep(3000);
-            sim.Keyboard.KeyPress(VirtualKeyCode.UP);
-            System.Threading.Thread.Sleep(3000);
-            sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
-            System.Threading.Thread.Sleep(3000);
-            sim.Keyboard.KeyPress(VirtualKeyCode.SPACE);
-            System.Threading.Thread.Sleep(3000);
-            sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
-            sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
-            sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
-            sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
-            sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
-            System.Threading.Thread.Sleep(3000);
-            sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
-            System.Threading.Thread.Sleep(3000);
-            sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
-            System.Threading.Thread.Sleep(3000);
-
-            // in case of necessity or error to start from where it stopped 
-            // to input into the textBoxArrayStart the index of the array where it stopped
-            int x = int.Parse(textBoxArrayStart.Text);
-
-            for (int i = x; i < currentDirectories.Length; i++)
+            if (textBoxPath.Text != "")
             {
-                label2.Text = "Starting point: " + i.ToString();
-                encrypt_files(currentDirectories[i]);              
+                // open and focus on unviewable window         
+                p = Process.Start(unviewableDirectory);
+                IntPtr h = p.MainWindowHandle;
+                SetForegroundWindow(h);
+
+                System.Threading.Thread.Sleep(3000);
+                copyFile(templateDirectoryOriginal, Directory.GetCurrentDirectory() + @"\Unviewable");
+                type_console("----------------------------------------------------------");
+
+                // starting process of encryption
+                System.Threading.Thread.Sleep(3000);
+                SendKeys.SendWait("^o");
+                System.Threading.Thread.Sleep(3000);
+                SendKeys.SendWait(templateDirectory);
+                System.Threading.Thread.Sleep(3000);
+
+                // run first cicle to get the settings all OK
+                sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
+                System.Threading.Thread.Sleep(3000);
+                sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+                System.Threading.Thread.Sleep(3000);
+                sim.Keyboard.KeyPress(VirtualKeyCode.UP);
+                System.Threading.Thread.Sleep(3000);
+                sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+                System.Threading.Thread.Sleep(3000);
+                sim.Keyboard.KeyPress(VirtualKeyCode.SPACE);
+                System.Threading.Thread.Sleep(3000);
+                sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+                sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+                sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+                sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+                sim.Keyboard.KeyPress(VirtualKeyCode.TAB);
+                System.Threading.Thread.Sleep(3000);
+                sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
+                System.Threading.Thread.Sleep(3000);
+                sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);
+                System.Threading.Thread.Sleep(3000);
+
+                // in case of necessity or error to start from where it stopped 
+                // to input into the textBoxArrayStart the index of the array where it stopped
+                int x = int.Parse(textBoxArrayStart.Text);
+
+                for (int i = x; i < currentDirectories.Length; i++)
+                {
+                    label2.Text = "Starting point: " + i.ToString();
+                    encrypt_files(currentDirectories[i]);
+                }
+                System.Threading.Thread.Sleep(500);
+                sw.Close();
+                p.Kill();
             }
-            System.Threading.Thread.Sleep(500);
-            sw.Close();
-            p.Kill();
+            else
+            {
+                MessageBox.Show("Error no path has been found");
+            }
+            
+           
         }
 
         private void encrypt_files(string subPath)
@@ -233,6 +238,11 @@ namespace Encrypting
         private void Form1_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void textBoxPath_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

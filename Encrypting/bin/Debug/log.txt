@@ -10059,3 +10059,124 @@ C:\Users\pc\Desktop\Newfolder(2)\Decrypted: 31 files to encrypt
 6/4/2019 4:51:20 PM - C:\Users\pc\Desktop\Newfolder(2)\Decrypted\VSUM_30_EE.XLSB ||Encryption Done
 6/4/2019 4:51:28 PM - C:\Users\pc\Desktop\Newfolder(2)\Decrypted\~$VSUM_05_PT.XLSB ||Encryption Done
 31 files were Encrypted
+C:\Users\pc\Desktop\Newfolder(2) - Copy
+C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_13_SK.xlsm
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_15_AT.XLSM
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_21_RO.xlsm
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_01_CH.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_02_IE.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_03_MT.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_04_BG.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_05_PT.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_06_IT.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_07_CZ.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_08_FR.xlsb
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_09_HR.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_10_SI.xlsb
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_11_GB.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_12_BE.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_14_DE.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_16_ES.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_17_DK.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_18_FI.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_19_PL.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_20_EL.xlsb
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_22_SE.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_23_NL.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_24_LU.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_25_CY.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_26_HU.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_27_LT.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_28_NO.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_29_LV.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_30_EE.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\~$VSUM_05_PT.XLSB
+C:\Users\pc\Desktop\Newfolder(2) - Copy
+C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_13_SK.xlsm
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_15_AT.XLSM
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_21_RO.xlsm
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_01_CH.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_02_IE.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_03_MT.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_04_BG.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_05_PT.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_06_IT.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_07_CZ.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_08_FR.xlsb
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_09_HR.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_10_SI.xlsb
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_11_GB.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_12_BE.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_14_DE.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_16_ES.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_17_DK.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_18_FI.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\C:\Users\pc\Desktop\Newfolder(2) - Copy
+C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_13_SK.xlsm
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_15_AT.XLSM
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_21_RO.xlsm
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_01_CH.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_02_IE.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_03_MT.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_04_BG.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_05_PT.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_06_IT.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_07_CZ.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_08_FR.xlsb
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_09_HR.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_10_SI.xlsb
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_11_GB.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_12_BE.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_14_DE.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_16_ES.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_17_DK.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_18_FI.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_19_PL.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_20_EL.xlsb
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_22_SE.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_23_NL.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_24_LU.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_25_CY.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_26_HU.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_27_LT.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_28_NO.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_29_LV.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_30_EE.XLSB
+          C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\~$VSUM_05_PT.XLSB
+----------------------------------------------------------
+C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted: 31 files to encrypt
+05/07/2019 10:59:58 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_13_SK.xlsm ||Encryption Done
+05/07/2019 11:00:06 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_15_AT.XLSM ||Encryption Done
+05/07/2019 11:00:14 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_21_RO.xlsm ||Encryption Done
+05/07/2019 11:00:22 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_01_CH.XLSB ||Encryption Done
+05/07/2019 11:00:30 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_02_IE.XLSB ||Encryption Done
+05/07/2019 11:00:38 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_03_MT.XLSB ||Encryption Done
+05/07/2019 11:00:46 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_04_BG.XLSB ||Encryption Done
+05/07/2019 11:00:54 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_05_PT.XLSB ||Encryption Done
+05/07/2019 11:01:02 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_06_IT.XLSB ||Encryption Done
+05/07/2019 11:01:11 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_07_CZ.XLSB ||Encryption Done
+05/07/2019 11:01:19 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_08_FR.xlsb ||Encryption Done
+05/07/2019 11:01:27 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_09_HR.XLSB ||Encryption Done
+05/07/2019 11:01:35 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_10_SI.xlsb ||Encryption Done
+05/07/2019 11:01:43 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_11_GB.XLSB ||Encryption Done
+05/07/2019 11:01:51 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_12_BE.XLSB ||Encryption Done
+05/07/2019 11:01:59 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_14_DE.XLSB ||Encryption Done
+05/07/2019 11:02:07 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_16_ES.XLSB ||Encryption Done
+05/07/2019 11:02:15 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_17_DK.XLSB ||Encryption Done
+05/07/2019 11:02:23 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_18_FI.XLSB ||Encryption Done
+05/07/2019 11:02:31 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_19_PL.XLSB ||Encryption Done
+05/07/2019 11:02:39 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_20_EL.xlsb ||Encryption Done
+05/07/2019 11:02:47 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_22_SE.XLSB ||Encryption Done
+05/07/2019 11:02:55 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_23_NL.XLSB ||Encryption Done
+05/07/2019 11:03:03 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_24_LU.XLSB ||Encryption Done
+05/07/2019 11:03:11 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_25_CY.XLSB ||Encryption Done
+05/07/2019 11:03:19 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_26_HU.XLSB ||Encryption Done
+05/07/2019 11:03:27 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_27_LT.XLSB ||Encryption Done
+05/07/2019 11:03:35 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_28_NO.XLSB ||Encryption Done
+05/07/2019 11:03:43 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_29_LV.XLSB ||Encryption Done
+05/07/2019 11:03:51 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\VSUM_30_EE.XLSB ||Encryption Done
+05/07/2019 11:03:59 - C:\Users\pc\Desktop\Newfolder(2) - Copy\Decrypted\~$VSUM_05_PT.XLSB ||Encryption Done
+31 files were Encrypted
