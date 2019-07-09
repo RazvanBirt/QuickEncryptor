@@ -54,8 +54,11 @@ namespace Encrypting
  
                 type_console(path);
             }
+            if(path == null || path.Length ==0)
+            {
+                return;
+            }       
             currentDirectories = Directory.GetDirectories(path);
-
             textBoxPath.Text = path;
 
             for (int i = 0; i < currentDirectories.Length; i++)
@@ -125,6 +128,7 @@ namespace Encrypting
                 // to input into the textBoxArrayStart the index of the array where it stopped
                 int x = int.Parse(textBoxArrayStart.Text);
 
+                //start the 2nd cicle
                 for (int i = x; i < currentDirectories.Length; i++)
                 {
                     label2.Text = "Starting point: " + i.ToString();
